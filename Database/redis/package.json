@@ -1,0 +1,32 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "A simple Redis client for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "redis",
+    "database",
+    "cache"
+  ],
+  "author": "Tiago Rodrigues Cunha",
+  "license": "ISC",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "redis": "^6.0.0",
+    "redis-om": "^0.4.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^6.0.3"
+  }
+}
