@@ -35,8 +35,9 @@ I wanted to gather all use cases in one repository, and I want to stay language/
     - [ ] NestJS
     - [ ] Adonis
     - [ ] Koa
-    - [ ] Hapi
     - [ ] Meteor
+    - [ ] Elysia
+    - [ ] Oak
 
 ### What most of them should include
 
