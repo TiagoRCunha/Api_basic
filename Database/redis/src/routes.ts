@@ -16,6 +16,9 @@ router.get('/', (req, res) => {
 router.get('/users', async (req, res) => {
     try {
         const users = await getAllUsers();
+        if (users.length === 0) {
+            return res.status(404).json({ error: 'No users found' });
+        }
         res.json(users);
     } catch (error) {
         console.error('Error fetching users:', error);

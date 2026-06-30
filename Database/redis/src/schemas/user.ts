@@ -14,13 +14,3 @@ export const userSchema = new Schema<User>('user', {
     email: { type: 'string' },
     age:   { type: 'number' },
 }, { dataStructure: 'JSON' });
-
-let userIndexReady: Promise<void> | null = null;
-
-export function getUserIndexReady(): Promise<void> | null {
-    return userIndexReady;
-}
-
-export function setUserIndexReady(indexPromise: Promise<void> | null): void {
-    userIndexReady = indexPromise;
-}
