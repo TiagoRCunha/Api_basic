@@ -17,7 +17,7 @@ I wanted to gather all use cases in one repository, and I want to stay language/
 
 - Database directory
     - [ ] Prisma (an ORM for TypeScript)
-    - [Current] Redis (key-value DB)
+    - [X] Redis (key-value DB)
     - [ ] MongoDB (document DB)
     - [ ] Neo4j (graph DB)
     - [ ] InfluxDB (time-series DB)
